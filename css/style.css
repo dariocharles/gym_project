@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&display=swap');
+
+
+
+header, section, footer, aside, nav, main, article, figure { 
+    display: block; 
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;  
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #777777;
+    background-color: green;
+}
+
+p {
+    font-family: roboto, sans-serif;
+}
+
+
+/* Navbar */
+#logo {
+    letter-spacing: 3px;
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.hover a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+
+/* Cover */
+
+#hero-image{
+    height: 525px;
+    width: 100%;
+    background: url("../assets/images/hero-img1.jpg") no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer {
+    height: 575px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.1)
+    }
+}
+
+#cover-text, #color-text h2 {
+   color:#ffffff;
+}
+
+#cover-text {
+   font-size: 130%;
+   font-family: 'Manrope', sans-serif;
+   text-transform: uppercase;
+   text-align: end;
+   width: 300px;
+   height: 200px;
+
+   padding-top: 40px;
+   padding-left: 10px;
+
+   background-color: rgba(37, 32, 32, 0.7);
+
+   top: 60px;
+   left: 100px;
+
+   position: absolute;
+    
+} 
+
+/* #cover-text-1 {
+    letter-spacing: 30px;
+}
+#cover-text-2{
+    letter-spacing: 4px;
+} */
+
+
+
+/* Footer */
+
+#footer {
+    /* height: 136.653px; */
+    height: 400px;
+    
+    padding: 8px 16px;
+}
