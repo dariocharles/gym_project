@@ -15,7 +15,7 @@ header, section, footer, aside, nav, main, article, figure {
 body {
     font-family: 'Manrope', sans-serif;
     color: #777777;
-    background-color: green;
+    /* background-color: green; */
 }
 
 p {

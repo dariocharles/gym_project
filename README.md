@@ -3,6 +3,12 @@
 One or two paragraphs providing an overview of my project. Sales pitch.
 
 
+
+
+LOOK AT THE TEMPLATE GOING TO USE!!! AND COMPARE IT TO THE CODE INSTITUTE ONE HAVE SAVED IN MY FILE
+
+
+----------------------------------------------------------------------------------------------------
 ## UX
 
 ### Project Goals
@@ -135,3 +141,117 @@ The overall feel of hte game is one that is designed for children to enjoy. The 
 
 
 
+-----------------------------------------------------------------------------------------------------------------------
+
+
+### Code - 
+eg. 
+    * Code for floating buttons taken from this W3Schools(hyperlink) post.
+    * Code for function to capitalize first letter of username was taken from this (hyperlink) post.
+
+
+### Awknowledgents
+
+    *Documents where I found the code with link and with the code pasted
+
+    * I used bootstraps 4.6 (https://getbootstrap.com/docs/4.6/components/navbar/) navbar template for my own navbar.
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        </ul>
+    </div>
+</nav>  
+    
+    * I used bootstrap 4.6 carousel code. https://getbootstrap.com/docs/4.6/components/carousel/
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+    * I used The Code Institute's (https://codeinstitute.net/) videos from their full-stack software development program to follow along with building a hero image and cover text.
+
+
+
+-----------------------------------------------------------------------------
+
+
+### Deployment
+
+This site was deployed to github pages.
+
+
+### Steps for other developers to access and run code
+* Document steps needed to clone install and run code so other developmer could contribute if I wanted to give them access. 
+
+### Testing Section  = Separate testing.md file
+
+* I tested the hyperlinks and they all work, 
+* I have used dev tools test responsiveness for multiple screen ssizes. 
+* I uses W3C Markup Validation to test my HTML
+* I have used the CSS Validator to test my CSS - https://jigsaw.w3.org/css-validator/
+* Include steps to running my project in a coding envirnment like gitpod.
+* Testing if my site meets the needs and wants documented in UX???
+* Lighthouse description - Use light house in dev tools to check site for performance, best practices and accessibility.
+
+## Bugs discovered:
+
+Solved bugs
+
+eg. 
+1. Custom modal opacity issues
+    * The entire contents of my custom search modal was becoming transparent when I tried to use the opacity css property on it's container
+    * To solve this I switched to using rgbs values instea, which have built in transparency but do not effect any further elements contained within
+             AND SHOW THE CODE
+
+
+    * I had trouble getting the copyright and the social media across from each other
+    * I solved this by
+      AND SHOW THE CODE
