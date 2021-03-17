@@ -215,8 +215,14 @@ eg.
   </a>
 </div>
 
+* I used bootstraps alert code
 
-    * I used The Code Institute's (https://codeinstitute.net/) videos from their full-stack software development program to follow along with building a hero image and cover text.
+* I used three images from https://www.pexels.com/
+        * https://www.pexels.com/photo/woman-doing-exercise-inside-gym-2247179/
+        * https://www.pexels.com/photo/photo-of-woman-wearing-grey-sports-bra-3757374/
+        * https://www.pexels.com/photo/woman-in-gray-tank-top-holding-two-black-dumbbells-3757370/
+
+* I used The Code Institute's (https://codeinstitute.net/) videos from their full-stack software development program to follow along with building a hero image and cover text.
 
 
 
@@ -255,3 +261,6 @@ eg.
     * I had trouble getting the copyright and the social media across from each other
     * I solved this by
       AND SHOW THE CODE
+
+    * I had trouble getting the alert anchor tag to align vertically in the center
+    * I solved this by...

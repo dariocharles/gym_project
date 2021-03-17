@@ -12,6 +12,7 @@ header, section, footer, aside, nav, main, article, figure {
     border: 0;
     box-sizing: border-box;  
 }
+
 body {
     font-family: 'Manrope', sans-serif;
     color: #777777;
@@ -39,10 +40,20 @@ p {
 }
 
 
-/* Cover */
+/* Footer */
+
+#footer {
+    /* height: 136.653px; */
+    height: 400px;
+    
+    padding: 8px 16px;
+}
+
+
+/* Index Page */
 
 #hero-image{
-    height: 525px;
+    height: 585px;
     width: 100%;
     background: url("../assets/images/hero-img1.jpg") no-repeat center center;
 
@@ -52,7 +63,7 @@ p {
 }
 
 #hero-outer {
-    height: 575px;
+    height: 585px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -91,20 +102,20 @@ p {
     
 } 
 
-/* #cover-text-1 {
-    letter-spacing: 30px;
+/* About Page */
+
+
+
+#about-img{
+    height: 350px;
+    width: 100%;
+    background: url("../assets/images/contact-img6.jpg") no-repeat center center;
 }
-#cover-text-2{
-    letter-spacing: 4px;
-} */
+    /* Contact Page */
 
-
-
-/* Footer */
-
-#footer {
-    /* height: 136.653px; */
-    height: 400px;
-    
-    padding: 8px 16px;
-}
+#contact-img {
+    height: 350px;
+    width: 100%;
+    background: url("../assets/images/contact-img7.jpg") no-repeat center center;
+    /* opacity: 0.5; */    
+} 
