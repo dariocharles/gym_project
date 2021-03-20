@@ -24,6 +24,8 @@ p {
 }
 
 
+
+
 /* Navbar */
 #logo {
     letter-spacing: 3px;
@@ -44,8 +46,7 @@ p {
 
 #footer {
     /* height: 136.653px; */
-    height: 400px;
-    
+    height: 200px;
     padding: 8px 16px;
 }
 
