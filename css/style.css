@@ -119,3 +119,21 @@ p {
     background: url("../assets/images/contact-img7.jpg") no-repeat center center;
     /* opacity: 0.5; */    
 } 
+
+.carousel-item {
+    height: 20rem;
+    position: relative;
+}
+
+.carousel-container {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 90px;
+}
+
+.carousel-indicators {
+    margin-bottom: 2.5rem;
+}
