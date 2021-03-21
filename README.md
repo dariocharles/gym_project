@@ -224,6 +224,11 @@ eg.
 
 * I used The Code Institute's (https://codeinstitute.net/) videos from their full-stack software development program to follow along with building a hero image and cover text.
 
+* Reused content from https://www.anytimefitness.com/membership/
+
+* Modal Code taken from http://reusableforms.com/d/p/bootstrap-popup-email-form
+* I centered the modal button using code from https://www.w3schools.com/howto/howto_css_center-vertical.asp
+
 
 
 -----------------------------------------------------------------------------
@@ -258,9 +263,10 @@ eg.
              AND SHOW THE CODE
 
 
-    * I had trouble getting the copyright and the social media across from each other
-    * I solved this by
-      AND SHOW THE CODE
-
     * I had trouble getting the alert anchor tag to align vertically in the center
     * I solved this by...
+    And show code
+
+    * I had trouble getting the Member Benefits heading closer to the list items.
+    * How I solved this - I realized the margins were  tall on the list items and fixed them. 
+    and show code
