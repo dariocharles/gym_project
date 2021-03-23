@@ -110,6 +110,10 @@ p {
     
 } 
 
+.membership-pricing-text {
+    font-size: 1.25rem;
+}
+
 /* About Page */
 
 #about-img{
@@ -148,14 +152,6 @@ p {
     position: relative;
 }
   
-.modal-btn-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
 
 /* Membership */
 
@@ -176,3 +172,26 @@ p {
 .list-headers {
     margin-bottom: 30px;
 }
+
+/* Contact */
+.roboto-font {
+    font-family: roboto, sans-serif;
+}
+
+
+/* Media Queries */
+/* NOT WORKING RIGHT - CHECK LATER */
+/* Figure out contact page */
+@media only screen and (max-width: 690px) {
+    .contact-media-query {
+        text-align: center;
+        padding-left: 0; !important      
+    }
+  }
+
+  /* Figure out descrption in home page  */
+  @media only screen and (max-width: 690px) {
+     .description-media-query {}
+        margin-top: 15%;  
+    }
+  }

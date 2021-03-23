@@ -275,7 +275,7 @@ eg.
     * I solved this going into dev tools and seeing that the div container had a padding on the right side that pushed every slightly to the left. I added a padding-left of 0 and this resolved the issue.
     SHOW CODE
 
-    * For some reason the I had a x overflow. I discovered it was because of the hero image section. 
+    * For some reason the I had a x overflow. I discovered it was because of the hero image section. The alert is overflowing, the welcome banner on the home page is overflowing and the address and modal section on the contact page are overflowing. I fixed the welcome banner by putting the class="row" in a container. 
 
 
 
@@ -285,4 +285,4 @@ eg.
 
 * The footer icons where giving me trouble. I began working with mx-5, but this created a format in the mobile size that didn't work well. I wanted to give the mobile version mx-4, but after a while of working on this I didn't manage to figure out how to set a different margin for different screen sizes. I decided to move on make it super simple by giving the icons a mx-4 for all screen sizes.  
 
-* The webpages have a x overflow control, I am not sure. That is something I would continue working on. I used overflow-x: hidden; to prevent this from happening. 
+* The webpages have a x overflow control, I am not sure. That is something I would continue working on. I used overflow-x: hidden; to prevent this from happening. The alert the contact address and the home welcome banner. They were all fixed by adding a container class was fixed by adding a container class. 
