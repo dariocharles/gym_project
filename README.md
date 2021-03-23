@@ -270,3 +270,19 @@ eg.
     * I had trouble getting the Member Benefits heading closer to the list items.
     * How I solved this - I realized the margins were  tall on the list items and fixed them. 
     and show code
+
+    * In the footer, I realized that the icons were not centered despite using text-center. 
+    * I solved this going into dev tools and seeing that the div container had a padding on the right side that pushed every slightly to the left. I added a padding-left of 0 and this resolved the issue.
+    SHOW CODE
+
+    * For some reason the I had a x overflow. I discovered it was because of the hero image section. 
+
+
+
+
+ ## What I would continue to work on if had time 
+ * I styled many of my elements inline. However, I realized as I was working that there are times when it's more benefitial to style the elements on the HTML page, when it a single element not found anywhere else in the website, then in the CSS file and there are other times when it's is more benefitial to style the elements on the CSS page. If I wanted to continue to make this site better, I would make a clear distinction between these. I realized that styling in the CSS file is better when those elements are repeated throughout the website such as the footer or else duplicated such as the styling for the two membership options. That way I can target differents with the same stylings easier and when deciding to change a styling I only have to change it in one spot. I will continue to work on being consistent with this in future projects. 
+
+* The footer icons where giving me trouble. I began working with mx-5, but this created a format in the mobile size that didn't work well. I wanted to give the mobile version mx-4, but after a while of working on this I didn't manage to figure out how to set a different margin for different screen sizes. I decided to move on make it super simple by giving the icons a mx-4 for all screen sizes.  
+
+* The webpages have a x overflow control, I am not sure. That is something I would continue working on. I used overflow-x: hidden; to prevent this from happening. 

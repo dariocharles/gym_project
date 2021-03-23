@@ -17,6 +17,7 @@ body {
     font-family: 'Manrope', sans-serif;
     color: #777777;
     /* background-color: green; */
+    
 }
 
 p {
@@ -48,7 +49,14 @@ p {
     /* height: 136.653px; */
     height: 200px;
     padding: 8px 16px;
+    position: relative;
 }
+
+#footer-container {
+    position: absolute;
+    top: 40%;;
+}
+
 
 
 /* Index Page */
