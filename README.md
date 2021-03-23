@@ -277,7 +277,9 @@ eg.
 
     * For some reason the I had a x overflow. I discovered it was because of the hero image section. The alert is overflowing, the welcome banner on the home page is overflowing and the address and modal section on the contact page are overflowing. I fixed the welcome banner by putting the class="row" in a container. 
 
+* The webpages have a x overflow control, I am not sure. That is something I would continue working on. I used overflow-x: hidden; to prevent this from happening. The alert the contact address and the home welcome banner. They were all fixed by adding a container class was fixed by adding a container class. 
 
+* I was fighting with a bug for a while where the carousel's weren't moving. I discovered it was because I was duplicating slides as I worked on them to paste next to each other and I hadn't taken off the active from the original one I posted on the other two. This prevented the slide from sliding and was stuck on the first slide. 
 
 
  ## What I would continue to work on if had time 
@@ -285,4 +287,4 @@ eg.
 
 * The footer icons where giving me trouble. I began working with mx-5, but this created a format in the mobile size that didn't work well. I wanted to give the mobile version mx-4, but after a while of working on this I didn't manage to figure out how to set a different margin for different screen sizes. I decided to move on make it super simple by giving the icons a mx-4 for all screen sizes.  
 
-* The webpages have a x overflow control, I am not sure. That is something I would continue working on. I used overflow-x: hidden; to prevent this from happening. The alert the contact address and the home welcome banner. They were all fixed by adding a container class was fixed by adding a container class. 
+* The size of the images - how they are supposed to work - the about and contact work alright in each screen size, by is it possible for them to have the same image view in all sizes?   The image for the hero image I'm not sure how to fix. 
