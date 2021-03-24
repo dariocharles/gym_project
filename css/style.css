@@ -24,7 +24,9 @@ p {
     font-family: roboto, sans-serif;
 }
 
-
+.fonting {
+    font-family: roboto, sans-serif;
+}
 
 
 /* Navbar */
@@ -93,28 +95,51 @@ p {
 }
 
 #cover-text {
-   font-size: 130%;
-   font-family: 'Manrope', sans-serif;
-   text-align: end;
-   width: 300px;
-   height: 200px;
+   text-align: center;
+   /* height: 30%;  */
+    color: #ffffffk;
+   padding: 25px 20px;
 
-   padding-top: 40px;
-   padding-left: 10px;
+   /* background-color: rgba(37, 32, 32, .8); */
+   background-color: #343a40;
+   opacity: 0.7;
+   background: cover;
+   border-radius: 60px;
+   margin-left: 10px;
+   margin-right: 10px;
+   
 
-   background-color: rgba(37, 32, 32, 0.7);
-
-   top: 60px;
+   /* top: 60px;
    left: 100px;
 
    position: absolute;
-    
+     */
+     position: absolute;
+  top: 35%;
+  left: 5%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 } 
+
+#cover-text-1 {
+    font-size: 1.8rem;
+   font-family: 'Manrope', sans-serif;
+   text-transform: capitalize;
+}
+#virtual-training {
+    font-size: 1.4rem;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
 
 .membership-pricing-text {
     font-size: 1.25rem;
 }
 
+.adrenaline {
+    font-size: 140%;
+}
 /* About Page */
 
 #about-img{
@@ -134,9 +159,10 @@ p {
     padding-right: 100%;
 }
 
-blockquote {
+/* blockquote {
     font-size: 20px;
-  }
+    max-width: 10 !important;
+ } */
 
     /* Contact Page */
 
@@ -193,18 +219,37 @@ blockquote {
     margin-bottom: 30px;
 }
 
+/* 
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 10%%;
+}
 
+.carousel-control-next {
+    position: absolute;
+    right: 10%;
+} */
 
 /* Media Queries */
 /* NOT WORKING RIGHT - CHECK LATER */
 /* Figure out contact page */
-@media only screen and (max-width: 690px) {
+@media all and (max-width: 768px) {
     .contact-media-query {
         text-align: center;
-        padding-left: 0; !important      
+        padding-left: 0px!important;
+        padding-right: 0px;  
+    }
+    .button-query-contact{
+        vertical-align: top;
     }
   }
 
+  @media all and (min-width: 768px) {
+      .contact-button {
+          margin-top: 15% !important;
+      }
+  }
+  
   /* Figure out descrption in home page  */
   /* @media only screen and (max-width: 690px) {
      .description-media-query {}
@@ -214,7 +259,7 @@ blockquote {
 
  
 
-  @media (max-width: 690px){
+  @media all and (max-width: 690px){
     
     .description-paragraph {
         font-size: 1rem;
@@ -228,3 +273,53 @@ blockquote {
     
     }
   } 
+
+  @media all and (max-width: 690px){
+      blockquote {
+        font-size: 1rem;
+       }
+       .carousel-names {
+        font-size: 1.7rem;
+       }
+       .carousel-inner {
+           
+       }
+  }
+
+  @media all and (max-width: 768px) {
+      .small-text-size {
+          font-size: 1.2rem;
+          text-align: center;
+      }
+      .list-headers {
+          font-size: 1.5rem;
+          font-weight: bold;
+          text-decoration: underline;
+      }
+      .benefits {
+          margin-bottom: 0 !important;
+      }
+  }
+
+  .carousel-item {
+      height: auto !important;
+  }
+ 
+
+  /* body {
+    background: linear-gradient(to left, #51cc48, #39df9c); */
+} */
+
+.width-auto {
+    width: auto;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+.carousel-indicators li {
+    border: none;
+    background: #ccc;
+}
+
