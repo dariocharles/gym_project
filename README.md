@@ -25,17 +25,17 @@ My intention for building this website is to practice my design skills and techn
 When to user comes to the website they will experience a easily navigated website with as few clicks as necessary that answers their questions and provide further contact information and social media outlets to engage with the company. The website has a strong brand with an exclusive, high-end feel that sparks an emotional connection with it's audience.
 
 ### Some user stories include:
-   #### First Time Visitor Goals
-        - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organization.
-        - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        - As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate 
-          their social media links to see their followings on social media to determine how trusted and known they are.
-   #### Returning Visitor Goals
-        - As a Returning Visitor, I want to find membership pricing and benefits.
-        - As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
-        - As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-   #### Frequent User Goals
-        - As a Frequent User, I want to check to see updates on challenges and events planned
+
+#### First Time Visitor Goals
+- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organization.
+- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+- As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+#### Returning Visitor Goals
+- As a Returning Visitor, I want to find membership pricing and benefits.
+- As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
+- As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+#### Frequent User Goals
+- As a Frequent User, I want to check to see updates on challenges and events planned
 
 ### Design
 
@@ -49,8 +49,8 @@ When to user comes to the website they will experience a easily navigated websit
     - I choice rounded corners to give the website a warm feel.
 
 ### Wireframe
-    I didn't have a clear image of starting this site beforehand because of my inexperience in design ideas. So I decided to opt out of wireframes and focus on exploring what was possible. For future website I will use wireframes as a tool for design when it is clear in my head of what I am designing, rather then the focus of this site which was how to use the technologies. 
-
+I decided to begin working without wireframes. My focus was exploring what was possible with these technologies and what I can do with them.
+        
 ## Features
    - Responsive on all device sizes
    - Interactive elements
@@ -107,12 +107,12 @@ When to user comes to the website they will experience a easily navigated websit
         - The user would already be comfortable with the website layout and can easily click the navigation bar to locate information.
 
 ### Further Testing
-   - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-    - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-    - A large amount of testing was done to ensure that all pages were linking correctly.
-    - I have used dev tools to test responsiveness for multiple screen sizes.
-    - I used [W3C Markup Validation](https://validator.w3.org/) to validate HTML
-    - I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to validate CSS.
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- I have used dev tools to test responsiveness for multiple screen sizes.
+- I used [W3C Markup Validation](https://validator.w3.org/) to validate HTML
+- I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to validate CSS.
 
 ## Known Bugs
 
@@ -159,21 +159,21 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ## Credits
 
 ### Code
-•	   Navbar - [Bootstraps 4.6 navbar template](https://getbootstrap.com/docs/4.6/components/navbar/) 
-•	   Alert - [Bootstraps 4.6 alert code](https://getbootstrap.com/docs/4.6/components/alerts/) 
-•	   Modal - [Bootstrap Popup Email Form](http://reusableforms.com/d/p/bootstrap-popup-email-form)	
-•	   Modal button centering - [Vertical Align](https://www.w3schools.com/howto/howto_css_center-vertical.asp)
-•	   Carousel - [Bootstrapious](https://jsfiddle.net/bootstrapious/tqagdo0z)
+- Navbar - [Bootstraps 4.6 navbar template](https://getbootstrap.com/docs/4.6/components/navbar/) 
+- Alert - [Bootstraps 4.6 alert code](https://getbootstrap.com/docs/4.6/components/alerts/) 
+- Modal - [Bootstrap Popup Email Form](http://reusableforms.com/d/p/bootstrap-popup-email-form)	
+- Modal button centering - [Vertical Align](https://www.w3schools.com/howto/howto_css_center-vertical.asp)
+- Carousel - [Bootstrapious](https://jsfiddle.net/bootstrapious/tqagdo0z)
 
 ### Content
    - Reused content from [Anytime Fitness](https://www.anytimefitness.com/membership/)
    - All other content was written by the developer.
 
 ### Media
-   - All Images were taken from [Pexels](pexels.com)
-	        [Hero image](https://www.pexels.com/photo/photo-of-woman-using-earphones-3757954/)
-	        [About](https://www.pexels.com/photo/woman-in-gray-tank-top-holding-two-black-dumbbells-3757370/)
-            [Contact Img](https://www.pexels.com/photo/photo-of-woman-wearing-grey-sports-bra-3757374/)
+- All Images were taken from [Pexels](pexels.com)
+    - [Hero image](https://www.pexels.com/photo/photo-of-woman-using-earphones-3757954/)
+    - [About](https://www.pexels.com/photo/woman-in-gray-tank-top-holding-two-black-dumbbells-3757370/)
+    - [Contact Img](https://www.pexels.com/photo/photo-of-woman-wearing-grey-sports-bra-3757374/)
 
 ### Acknowledgements
    - My teacher at Canadian Business College for assisting me to get to this place of building my first website. 
