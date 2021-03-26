@@ -26,7 +26,6 @@ p {
 
 
 
-
 /* Navbar */
 #logo {
     letter-spacing: 3px;
@@ -46,7 +45,6 @@ p {
 /* Footer */
 
 #footer {
-    /* height: 136.653px; */
     height: 200px;
     padding: 8px 16px;
     position: relative;
@@ -56,7 +54,6 @@ p {
     position: absolute;
     top: 40%;;
 }
-
 
 
 /* Index Page */
@@ -79,6 +76,7 @@ p {
     position: relative;
 }
 
+
 @keyframes hero-zoom {
     from {
         transform: scale(1)
@@ -94,29 +92,15 @@ p {
 
 #cover-text {
    text-align: center;
-   /* height: 30%;  */
-    color: #ffffffk;
+   color: #ffffff;
    padding: 25px 20px;
-
-   /* background-color: rgba(37, 32, 32, .8); */
    background-color: #343a40;
    opacity: 0.7;
-   background: cover;
+   background-size: cover;
    border-radius: 60px;
    margin-left: 10px;
    margin-right: 10px;
-   
-
-   /* top: 60px;
-   left: 100px;
-
    position: absolute;
-     */
-     position: absolute;
-  top: 35%;
-  left: 5%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 } 
 
 #cover-text-1 {
@@ -138,6 +122,56 @@ p {
 .adrenaline {
     font-size: 140%;
 }
+
+@media all and (min-width: 772px) {
+    .shorten-hero-text {
+        display: inline;
+    }
+    #cover-text {
+     top: 20%;
+     left: 10%;
+    } 
+ }
+
+ @media all and (max-width: 772px) and (min-width: 500px) {
+    #cover-text {
+     top: 25%;
+     left: 24%;     
+    } 
+    .shorten-hero-text {
+        display: none;
+    }
+ }
+
+ @media all and (max-width: 500px) {
+    #cover-text {
+     top: 28%;
+     left: 5%;     
+     right: 5%;
+     
+    } 
+    .shorten-hero-text {
+        display: none;
+    }
+ }
+
+
+ 
+
+@media all and (max-width: 768px){
+    .description-paragraph {
+        font-size: 1.1rem;
+        margin-top: 10% !important;
+    }
+  } 
+
+   @media (min-width: 800px){
+    .description-paragraph {
+        font-size: 1.5rem;
+    
+    }
+  } 
+
 /* About Page */
 
 #about-img{
@@ -150,19 +184,45 @@ p {
 
 .commitment {
     border: 2px solid black;
-    margin:5 3;
+    margin:5px 3px;
     padding-top: 10%;
     padding-bottom: 10%;
     padding-left: 100%;
     padding-right: 100%;
 }
 
-/* blockquote {
-    font-size: 20px;
-    max-width: 10 !important;
- } */
+.carousel-item {
+    height: auto !important;
+}
 
-    /* Contact Page */
+.carousel-indicators li {
+  border: none;
+  background: #ccc;
+}
+
+.width-auto {
+    width: auto;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+@media all and (max-width: 690px){
+    blockquote {
+      font-size: 1rem;
+     }
+     .carousel-names {
+      font-size: 1.7rem;
+     }
+     .carousel-inner {
+         
+     }
+}
+
+
+
+
+/* Contact Page */
 
 #contact-img {
     height: 390px;
@@ -187,8 +247,6 @@ p {
     vertical-align: middle;
 } 
 
-
-
 .contact-info {
     position: relative;
 }
@@ -196,6 +254,23 @@ p {
 .roboto-font {
     font-family: roboto, sans-serif;
 }
+
+@media all and (max-width: 768px) {
+    .contact-media-query {
+        text-align: center;
+        padding-left: 0px!important;
+        padding-right: 0px;  
+    }
+    .button-query-contact{
+        vertical-align: top;
+    }
+  }
+
+  @media all and (min-width: 768px) {
+      .contact-button {
+          margin-top: 15% !important;
+      }
+  }
 
 /* Membership */
 
@@ -217,127 +292,36 @@ p {
     margin-bottom: 30px;
 }
 
-/* 
-.carousel-control-prev-icon {
-    position: absolute;
-    left: 10%%;
-}
-
-.carousel-control-next {
-    position: absolute;
-    right: 10%;
-} */
-
-/* Media Queries */
-/* NOT WORKING RIGHT - CHECK LATER */
-/* Figure out contact page */
 @media all and (max-width: 768px) {
-    .contact-media-query {
+    .small-text-size {
+        font-size: 1.2rem;
         text-align: center;
-        padding-left: 0px!important;
-        padding-right: 0px;  
     }
-    .button-query-contact{
-        vertical-align: top;
-    }
-  }
-
-  @media all and (min-width: 768px) {
-      .contact-button {
-          margin-top: 15% !important;
-      }
-  }
-  
-  /* Figure out descrption in home page  */
-  /* @media only screen and (max-width: 690px) {
-     .description-media-query {}
-        margin-top: 15%;  
-    }
-  } */
-
- 
-
-  @media all and (max-width: 772px){
-    
-    .description-paragraph {
-        font-size: 1.1rem;
-        margin-top: 10% !important;
-    }
-  } 
-
-   @media (min-width: 800px){
-    .description-paragraph {
+    .list-headers {
         font-size: 1.5rem;
-    
+        font-weight: bold;
+        text-decoration: underline;
     }
-  } 
-
-  @media all and (max-width: 690px){
-      blockquote {
-        font-size: 1rem;
-       }
-       .carousel-names {
-        font-size: 1.7rem;
-       }
-       .carousel-inner {
-           
-       }
-  }
-
-  @media all and (max-width: 768px) {
-      .small-text-size {
-          font-size: 1.2rem;
-          text-align: center;
-      }
-      .list-headers {
-          font-size: 1.5rem;
-          font-weight: bold;
-          text-decoration: underline;
-      }
-      .benefits {
-          margin-bottom: 0 !important;
-      }
-  }
-
-  .carousel-item {
-      height: auto !important;
-  }
- 
-
-  /* body {
-    background: linear-gradient(to left, #51cc48, #39df9c); */
-} */
-
-.width-auto {
-    width: auto;
-}
-
-.text-lg {
-    font-size: 2rem;
-}
-
-.carousel-indicators li {
-    border: none;
-    background: #ccc;
-}
-
-
-
-@media all and (max-width: 900px) {
-    /* #hero-image {
-        background: url("../assets/images/hero-img-girl.jpg") no-repeat center center;
-    } */
-    .cover-text {
-        margin-left: 500px;
+    .benefits {
+        margin-bottom: 0 !important;
     }
 }
-/* #hero-image{
-    height: 82vh;
-    width: 100%;
-    background: url("../assets/images/hero-img-girl.jpg") no-repeat center left;
-    background-size: cover;
 
-    animation-name: hero-zoom;
-    animation-duration: 7s;
-    animation-fill-mode: forwards;
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
